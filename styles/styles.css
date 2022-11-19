@@ -1,19 +1,189 @@
 h1 {
-    color: black;
+    position: absolute;
+    width: 493px;
+    height: 244px;
+    left: 147px;
+    top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 244px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.base {
+    /* карточка новости */
+
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 1667px;
+    height: 2022px;
+    left: 375px;
+    top: 430px;
+    border: 1px dashed #7B61FF;
+    border-radius: 5px;
 }
 
 .horizontally {
-    position: relative;
+    /* size=1920-1340, state=default */
+        /* Auto layout */ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+    position: absolute;
+    width: 1334px;
+    height: 291px;
+    left: 82px;
+    top: 86px;
 }
 
-    .horizontally img {
-        weight: 200px;
-        height: 100px;
-        border: 5px solid #fafafa;
-        border-top-width: 5px;
-        border-bottom-width: 5px;
-        -webkit-box-shadow: 3px 3px 6px 4px #888;
-        -moz-box-shadow: 3px 3px 6px 4px #888;
-        box-shadow: 3px 3px 6px 4px #888;
-        margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+.horizontally img {
+    /* фотосессия в стена Театра */
+    height: 291px;
+    width: 467px;
+    left: 467px;
+    top: 0px;
+    border-radius: 0px;
+    position: absolute;
+    left: 0%;
+    right: -100%;
+    top: 0%;
+    bottom: 0%;
+    background: url(Img/Photo-Dama.jpg);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+    .text {
+        /* 26.11.2022 */
+
+
+        position: absolute;
+        width: 81px;
+        height: 22px;
+        left: 600px;
+        top: 0px;
+        /* Desk. Типографика Cайт 1/Цифры. Даты/1 Дата */
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        /* Сайт 1 Цвета/Осн. цвета/Черный */
+
+        color: #1F1E1E;
+    }
+
+    .text1 {
+        /* Фотосессия в стенах Театра драмы */
+
+
+        position: absolute;
+        width: 536px;
+        height: 33px;
+        left: 0px;
+        top: 100px;
+        /* Desk. Типографика Cайт 1/Подзаголовок/2 Подзаголовок */
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        /* identical to box height */
+        /* Сайт 1 Цвета/Осн. цвета/Черный */
+
+        color: #1F1E1E;
+    }
+
+    .text2 {
+        /* Организовывая фотосессию для локального бренда одежды мы смогли воплотить все пожелания заказчика и у нас получилась отличная работа. Смотрите как это было */
+
+
+        position: absolute;
+        width: 467px;
+        height: 66px;
+        left: 0px;
+        top: 173px;
+        /* Desk. Типографика Cайт 1/Текст/2 Текст */
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        /* Сайт 1 Цвета/Осн. цвета/Черный */
+
+        color: #1F1E1E;
+    }
+
+.horizontally_2 {
+    left: 82px;
+    top: 390px;
+}
+
+.vertically {
+    /* size=768, state=default */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    position: absolute;
+    width: 708px;
+    height: 640px;
+    left: 82px;
+    top: 740px;
+}
+
+    .vertically img {
+        height: 439px;
+        width: 708px;
+        left: 708px;
+        top: 0px;
+        border-radius: 0px;
+    }
+
+    .vertically .text {
+
+        left: 0px;
+        top: 440px;
+    }
+
+.vertically_1 {
+    left: 800px;
+}
+
+.vertically_2 {
+    left: 82px;
+    top: 1440px;
+}
+
+    .vertically_2 img {
+        height: 175px;
+        width: 280px;
+        left: 280px;
+        top: 0px;
+        border-radius: 0px;
+    }
+
+    .vertically_2 .text {
+        top: 180px;
     }
